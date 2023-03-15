@@ -18,6 +18,7 @@ specifiers:
   react: 18.2.0
   react-dom: 18.2.0
   scheduler: ^0.23.0
+  swc-plugin-valtio: ^1.0.1
   typescript: 4.9.5
   use-context-selector: ^1.4.1
   valtio: ^1.10.3
@@ -40,6 +41,7 @@ dependencies:
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   scheduler: 0.23.0
+  swc-plugin-valtio: 1.0.1
   typescript: 4.9.5
   use-context-selector: 1.4.1_2szjah6qrhd6fr2kgr64p4pjgm
   valtio: 1.10.3_react@18.2.0
@@ -3631,6 +3633,10 @@ packages:
   /supports-preserve-symlinks-flag/1.0.0:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
+    dev: false
+
+  /swc-plugin-valtio/1.0.1:
+    resolution: {integrity: sha512-+U4oSYlGBQ4DrRcS3gKrdBMtRnyM8TFyfQ++qwZCVoPOqNJT1Y0msersRRAD48bfxUYw/Krl11KBDA82zyhByw==}
     dev: false
 
   /synckit/0.8.5:
