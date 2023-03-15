@@ -5,9 +5,12 @@ import { valitoStore } from '@/stores/valtio';
 import { useSnapshot } from 'valtio';
 
 export const SetterButton1 = () => {
+  const increase = () => {
+    valitoStore.value1 += 1;
+  };
   return (
     <RenderCountsWrapper name={'increaseValue1'}>
-      <Button onClick={valitoStore.increaseValue1}>Increase Value 1</Button>
+      <Button onClick={increase}>Increase Value 1</Button>
     </RenderCountsWrapper>
   );
 };
