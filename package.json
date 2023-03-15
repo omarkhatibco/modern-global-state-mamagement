@@ -9,14 +9,28 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/next-js": "^2.0.1",
+    "@chakra-ui/react": "^2.5.1",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
     "@types/node": "18.15.3",
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.11",
     "eslint": "8.36.0",
     "eslint-config-next": "13.2.4",
+    "framer-motion": "^10.3.2",
+    "jotai": "^2.0.3",
+    "jotai-signal": "^0.8.1",
     "next": "13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "4.9.5"
+    "scheduler": "^0.23.0",
+    "typescript": "4.9.5",
+    "use-context-selector": "^1.4.1",
+    "valtio": "^1.10.3",
+    "zustand": "^4.3.6"
+  },
+  "devDependencies": {
+    "@swc-jotai/react-refresh": "^0.0.7"
   }
 }
