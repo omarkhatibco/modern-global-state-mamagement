@@ -8,6 +8,7 @@ import {
   SetterButton2,
   GetterText2,
 } from '@/components/ContextComponents';
+import { useRendersCount } from 'react-use';
 
 export default function Home() {
   return (

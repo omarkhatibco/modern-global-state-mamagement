@@ -4,7 +4,7 @@ export const RenderCounts: React.FC<{ rendersCount: number }> = ({
   rendersCount,
 }) => {
   return (
-    <Text fontSize={'xs'} color='gray.300'>
+    <Text fontSize={'xs'} color='gray.500'>
       Renders count: {rendersCount}
     </Text>
   );

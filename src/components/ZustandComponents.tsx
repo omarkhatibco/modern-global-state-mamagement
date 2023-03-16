@@ -1,5 +1,4 @@
-import { useDataContext } from '@/stores/context';
-import { Button, Text, Box } from '@chakra-ui/react';
+import { Button, Text } from '@chakra-ui/react';
 import { RenderCountsWrapper } from '@/components';
 import { useZustandStore } from '@/stores/zustand';
 
